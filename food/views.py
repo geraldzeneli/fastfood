@@ -7,11 +7,11 @@ from django.contrib import messages
 from .models import Pizza, Burger, Order, Item
 from .forms import NewUserForm
 import json
-import random
+import secrets
 
 def randomOrderNumber(length):
     sample = 'ABCDEFGH0123456789'
-    numberO = ''.join(random.choice(sample) for i in range(length))
+    numberO = ''.join(secrets.SystemRandom().choice(sample) for i in range(length))
     return numberO
 
 # Create your views here.
