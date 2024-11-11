@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '9v#9zv0p%6o-5tkq7+n=(5e_hvzs8=!@x%+9vj!4$km&zr84&r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['gerzenfood.herokuapp.com']
 
