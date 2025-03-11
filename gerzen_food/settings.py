@@ -127,3 +127,4 @@ STATIC_ROOT = PurePath.joinpath(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 django_heroku.settings(locals())
+SESSION_COOKIE_SECURE = True
